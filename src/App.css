@@ -1,14 +1,114 @@
+:root {
+  --btn-color: rgb(93 93 255);
+  --font-color: #8aa9b4;
+  --heading-color: #d9e3ea;
+}
+
+body {
+  background-color: #151719 !important;
+}
+
 .Navbar-title {
   text-decoration: none;
   color: black;
 }
 
 .Navbar-element {
+  margin-top: 2px;
   text-decoration: none !important;
   color: black;
   margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .Navbar-element h4 {
   font-weight: 400;
+  font-size: 15px;
+  color: rgb(93 93 255);
+  /* margin-top: 5px; */
+}
+
+.HeroSection {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem !important;
+  margin: auto;
+  width: 70%;
+}
+
+.HeroSection h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.HeroSection h3 {
+  color: var(--font-color);
+  font-size: 18px;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.table-heading {
+  color: var(--heading-color);
+}
+.table-h4 {
+  font-size: 13px;
+  line-height: 1.5rem;
+  color: var(--font-color);
+}
+
+.goals-btn {
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  color: #16a368 !important;
+  background-color: #bbf7d0 !important;
+  border-radius: 2rem !important;
+}
+
+.left-col {
+  text-align: left;
+}
+
+.left-col p {
+  color: #1e35f1;
+}
+
+.left-col h2 {
+  color: var(--heading-color);
+}
+.left-col h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--font-color);
+  line-height: 1.5rem;
+}
+
+.left-col h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--font-color);
+}
+
+.projects {
+  width: 400px;
+  height: auto;
+}
+
+.card-body {
+  background-color: #25282c;
+  border: transparent !important;
+}
+.card-main-text {
+  color: var(--font-color);
+}
+.card-secondary-text {
+  color: white;
+  text-align: left;
+  font-weight: 600;
 }

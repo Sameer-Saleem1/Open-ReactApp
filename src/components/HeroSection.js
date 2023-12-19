@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import projects from "../assets/img/projects.jpg";
+import video1 from "../assets/img/video.mp4";
 
 export default function HeroSection() {
   return (
@@ -18,7 +19,14 @@ export default function HeroSection() {
         Start Free Trial
       </Button>
       <Button variant="secondary">Learn More</Button>
-
+      <div>
+        <video
+          src={video1}
+          controls="controls"
+          autoplay="false"
+          className="video"
+        />
+      </div>
       <h1>
         The majority our customers do not <br /> understand their workflows.
       </h1>

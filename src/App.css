@@ -159,9 +159,49 @@ input {
 }
 
 .footer p {
-  font-size: 12px;
+  font-size: 13px;
   text-align: left;
   margin-bottom: 0.2rem;
   color: var(--font-color);
-  /* font-weight: 400; */
+}
+
+.footer-main {
+  text-align: left;
+}
+
+.footer-main p {
+  font-size: 15px;
+}
+
+.footer-bottom-left {
+  text-align: left;
+  font-size: 13px;
+  color: var(--font-color);
+}
+
+.footer-bottom-right {
+  text-align: right;
+}
+.video {
+  margin-top: 0.75rem;
+  width: 600;
+  height: 300;
+}
+@media screen and (max-width: 786px) {
+  .footer-sections {
+    margin-top: 0.5rem !important;
+  }
+  .footer-bottom-left {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .footer-bottom-right {
+    text-align: center;
+  }
+
+  .video {
+    margin-top: 0.75rem;
+    width: 350px;
+    height: auto;
+  }
 }

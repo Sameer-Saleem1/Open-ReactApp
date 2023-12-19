@@ -1,13 +1,18 @@
+import { Image } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import logo from "../assets/img/logo.jpg";
 
 function BasicExample() {
   return (
     <Navbar expand="lg" className="Navbar-bg">
       <Container>
+        <Navbar.Brand href="/">
+          <Image src={logo} />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto Navbar-section">

@@ -4,6 +4,12 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import projects from "../assets/img/projects.jpg";
 import video1 from "../assets/img/video.mp4";
+import icon1 from "../assets/img/icon-1.jpg";
+import icon2 from "../assets/img/icon-2.jpg";
+import icon3 from "../assets/img/icon-3.jpg";
+import icon4 from "../assets/img/icon-4.jpg";
+import icon5 from "../assets/img/icon-5.jpg";
+import icon6 from "../assets/img/icon-6.jpg";
 
 export default function HeroSection() {
   return (
@@ -39,7 +45,8 @@ export default function HeroSection() {
       <Container className=" my-5 gx-4">
         {" "}
         <Row>
-          <Col md={6} sm={6} lg={4}>
+          <Col className="mt-2" md={6} sm={6} lg={4}>
+            <Image src={icon1} />
             <h2 className="table-heading">Instant Features</h2>
             <h6 className="table-h4">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -47,7 +54,8 @@ export default function HeroSection() {
               cupidatat.
             </h6>
           </Col>
-          <Col md={6} sm={6} lg={4}>
+          <Col className="mt-2" md={6} sm={6} lg={4}>
+            <Image src={icon2} />
             <h2 className="table-heading">Instant Features</h2>
             <h6 className="table-h4">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -55,7 +63,8 @@ export default function HeroSection() {
               cupidatat.
             </h6>
           </Col>
-          <Col md={6} sm={6} lg={4}>
+          <Col className="mt-2" md={6} sm={6} lg={4}>
+            <Image src={icon3} />
             <h2 className="table-heading">Instant Features</h2>
             <h6 className="table-h4">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -63,7 +72,8 @@ export default function HeroSection() {
               cupidatat.
             </h6>
           </Col>
-          <Col md={6} sm={6} lg={4}>
+          <Col className="mt-2" md={6} sm={6} lg={4}>
+            <Image src={icon4} />
             <h2 className="table-heading">Instant Features</h2>
             <h6 className="table-h4">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -71,7 +81,8 @@ export default function HeroSection() {
               cupidatat.
             </h6>
           </Col>
-          <Col md={6} sm={6} lg={4}>
+          <Col className="mt-2" md={6} sm={6} lg={4}>
+            <Image src={icon5} />
             <h2 className="table-heading">Instant Features</h2>
             <h6 className="table-h4">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -79,7 +90,8 @@ export default function HeroSection() {
               cupidatat.
             </h6>
           </Col>
-          <Col md={6} sm={6} lg={4}>
+          <Col className="mt-2" md={6} sm={6} lg={4}>
+            <Image src={icon6} />
             <h2 className="table-heading">Instant Features</h2>
             <h6 className="table-h4">
               Duis aute irure dolor in reprehenderit in voluptate velit esse

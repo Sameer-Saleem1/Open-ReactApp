@@ -37,7 +37,7 @@ body {
   text-align: center;
   margin-top: 4rem !important;
   margin: auto;
-  width: 70%;
+  width: 85%;
 }
 
 .HeroSection h1 {
@@ -100,6 +100,17 @@ body {
   height: auto;
 }
 
+@media screen and (max-width: 786px) {
+  .projects {
+    width: 340px;
+    height: auto;
+  }
+}
+
+.cards-container {
+  justify-content: center;
+  align-items: center;
+}
 .card-body {
   background-color: #25282c;
   border: transparent !important;
@@ -111,4 +122,46 @@ body {
   color: white;
   text-align: left;
   font-weight: 600;
+}
+
+@media screen and (max-width: 786px) {
+  .card-outer-container {
+    margin-left: 3rem;
+    width: 18rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+input {
+  margin-right: 0.5rem !important;
+  background-color: #4b4acf;
+  border: 1px solid #a9a3a3;
+  padding-left: 1rem;
+  width: 228px;
+}
+
+.subscribe-btn {
+  color: var(--btn-color) !important;
+  font-weight: 600 !important;
+  border-radius: 2px !important;
+  font-size: 14px !important;
+  padding: 0.5rem !important;
+}
+
+.footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem !important;
+  margin: auto;
+  width: 85%;
+}
+
+.footer p {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 0.2rem;
+  color: var(--font-color);
+  /* font-weight: 400; */
 }

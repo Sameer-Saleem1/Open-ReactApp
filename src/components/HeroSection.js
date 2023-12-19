@@ -141,18 +141,18 @@ export default function HeroSection() {
         </Container>
       </div>
       <hr className="my-5" />
-      <div>
+      <div className="cards-container">
         <h1 className="">Don't take our word for it</h1>
         <h3>
           Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper
           quis lectus <br />
           nulla at volutpat diam ut venenatis tellus—in ornare.
         </h3>
-        <Container className="my-4 g-0">
+        <Container className="my-5 g-0 r">
           <Row>
-            <Col lg={4}>
+            <Col lg={4} className="card-outer-container">
               {" "}
-              <Card style={{ width: "16rem" }}>
+              <Card style={{ backgroundColor: "transparent" }}>
                 <Card.Body className="card-body">
                   <Card.Text>
                     <p className="card-main-text">
@@ -170,9 +170,13 @@ export default function HeroSection() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="card-outer-container">
               {" "}
-              <Card style={{ width: "16rem" }}>
+              <Card
+                style={{
+                  backgroundColor: "transparent",
+                }}
+              >
                 <Card.Body className="card-body">
                   <Card.Text>
                     <p className="card-main-text">
@@ -190,9 +194,13 @@ export default function HeroSection() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="card-outer-container">
               {" "}
-              <Card style={{ width: "16rem" }}>
+              <Card
+                style={{
+                  backgroundColor: "transparent",
+                }}
+              >
                 <Card.Body className="card-body">
                   <Card.Text>
                     <p className="card-main-text">
@@ -209,6 +217,38 @@ export default function HeroSection() {
                   </Card.Text>
                 </Card.Body>
               </Card>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div
+        className="my-5"
+        style={{
+          backgroundColor: "#5d5dff",
+          padding: "2rem 1rem",
+        }}
+      >
+        <Container>
+          <Row>
+            <Col className="text-white" style={{ textAlign: "left" }}>
+              <h2>Stay in the loop</h2>
+              <h6 style={{ fontWeight: "400" }}>
+                Join our newsletter to get top news before anyone else.
+              </h6>
+            </Col>
+            <Col>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginTop: "1rem",
+                }}
+              >
+                <input placeholder="Your best email..."></input>
+                <Button variant="light" className="subscribe-btn">
+                  Subscribe
+                </Button>
+              </div>
             </Col>
           </Row>
         </Container>

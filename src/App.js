@@ -1,6 +1,6 @@
 // import { Route, Routes } from "react-router-dom";
 import "./App.css";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 
@@ -9,6 +9,7 @@ function App() {
     <div>
       <Header />
       <HeroSection />
+      <Footer />
     </div>
   );
 }
